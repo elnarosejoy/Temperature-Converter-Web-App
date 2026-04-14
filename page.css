@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  /* Deep Navy to Medium Blue Gradient */
+  background: linear-gradient(to left bottom, #00246B, #1e3a8a);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cleaner tech font */
+  color: #CADCFC; /* Soft light blue text */
+}
+
+.container {
+  /* Semi-transparent light blue card */
+  background: rgba(202, 220, 252, 0.15); 
+  backdrop-filter: blur(8px);
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  width: 85%;
+  max-width: 450px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 28px;
+  color: #00FFFF; /* Electric Cyan accent */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.temp-container {
+  width: 100%;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.input {
+  width: 200px;
+  padding: 8px;
+  float: right;
+  outline: none;
+  /* Darker input background for contrast */
+  background: rgba(0, 0, 0, 0.2); 
+  border: 1px solid #00FFFF;
+  border-radius: 5px;
+  color: #00FFFF;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+/* Glow effect when clicking the input */
+.input:focus {
+  background: rgba(0, 255, 255, 0.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+.input::placeholder {
+  color: rgba(0, 255, 255, 0.3);
+}
