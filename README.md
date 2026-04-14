@@ -1,2 +1,4 @@
 # Temperature-Converter-Web-App
-The user will input a temperature in either Fahrenheit or Celsius and press a "convert" button. 
+
+🔹 Temperature Converter Web App
+Developed an interactive temperature converter using JavaScript with real-time conversion between Celsius, Fahrenheit, and Kelvin. Implemented input validation and smooth user interaction.
